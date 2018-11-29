@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    height: 100px;
+}
+.title-warp{
+    position: relative;
+    width: 500px;
+    margin-left: 200px;
+}
+.title-warp img{
+    position: absolute;
+    left: 74px;
+    top:20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    background: #F56600;
+}
+.t1{
+    position: absolute;
+    left: 168px;
+    top:20px;
+}
+.t1 .s1{
+    font-size: 27px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.t1 .s2{
+    font-size: 10px;
+}
+.container{
+    background-size: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-image: url(../images/banner.png);
+}
+.login{
+    background-color: #fff;
+    position: relative;
+    height: 350px;
+    width: 280px;
+    border: 1px solid #F56600;
+    top:30px;
+    left: 805px;
+}
+.top{
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+    left: 44px;
+}
+.top span{
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+}
+.top .s1{
+    color: #F56600;
+}
+.body{
+    position: relative;
+    top:40px;
+    left: 40px;
+}
+.body input{
+    height: 32px;
+    width: 190px;
+}
+.bd-login{
+    position: relative;
+    top:58px;
+    left: 42px;
+}
+button{
+    background-size: 100%;
+    height: 32px;
+    width: 190px;
+    background-color: #F56600;
+}
+.bd-bottom{
+    position: relative;
+    top: 72px;
+    left: 48px;
+}
+.bd-bottom span{
+    
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bd-bottom a{
+    text-decoration: none;
+    color: #333;
+}
+.other{
+    position: relative;
+    font-size: 12px;
+    top: 115px;
+    left: 51px;
+}
+.bottom{
+    background-image: url(../images/icons_type.png);
+    background-color: #333;
+    
+    position: relative;
+    bottom: -126px;
+    left: -20px;
+}
+
+.bottom a{
+    position: relative;
+    display:block;
+    float:left;
+    width:20px;
+    height:20px;
+    background: #747474 url(../images/icons_type.png) no-repeat ;
+    margin-left:35px;
+    left: 34px;
+    background-repeat: no-repeat;
+}
+.bottom .one{background-position: -18px 0}
+.bottom .two{background-position: -37px 0}
+.bottom .three{background-position: -57px 0}
+.bottom .four{background-position: -85px 0}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.footer{
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 450px;
+    
+}
+.footer{
+    height: 20px;
+}
+.footer a,p,span{
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    left: -79px;
+}
